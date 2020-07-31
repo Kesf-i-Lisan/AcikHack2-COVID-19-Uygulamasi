@@ -9,6 +9,15 @@
   </a>
 </p>
 
+
+Gerekli Kütüphane ve Araçlar | Version
+------------ | -------------
+Python | 3.5
+NLTK | x.x
+
+```sh
+git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
+```
 ## 🚀 Extractive Özetleme
 ```python
 def ozetle(self,metin):
