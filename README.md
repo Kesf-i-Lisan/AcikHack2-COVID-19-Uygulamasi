@@ -6,7 +6,7 @@
 <p align="center">
 
   <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    👨🏼‍💻 👩🏼‍💻<img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
 
@@ -15,7 +15,7 @@ Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.5
 NLTK | x.x
-
+## 💻👨🏼‍💻 👩🏼‍💻👨🏼‍🎓 👩🏼‍🎓
 ```sh
 git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
