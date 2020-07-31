@@ -18,8 +18,9 @@
  
 Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
-Python | 3.5
-NLTK | x.x
+Python | 3.x
+NLTK | 3.5
+Networkx | 2.4
 
 
 
