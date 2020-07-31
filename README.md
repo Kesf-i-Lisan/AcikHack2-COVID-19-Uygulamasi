@@ -1,5 +1,5 @@
  <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/dosyalar/kesf_i_lisan_logo.png" width="20%" height="20%" align="right"/></a>
-# Açık Hack 2020 | COVID-19 Özel Uygulaması <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/>
+# Açık Hack 2020 | COVID-19 Özel Uygulaması 
 <h1>
 🎓 👨🏾‍💻 👩🏾‍💻 🎯 💭 </h1>
 <!--<p align="center">
@@ -12,7 +12,7 @@
   </a>
 </p>
 
-
+<img src="https://img.icons8.com/dusk/50/000000/open-source.png"/>
 Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.5
