@@ -23,7 +23,7 @@ git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
 
 ## Ortam Kurulumu - Adım 0
-Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin özetleme gerçekleştirmenizi mümkün kılar. Proje süresince [a link] https://docs.conda.io/en/latest/miniconda.html kullanılmasını öneriyoruz.
+Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin özetleme gerçekleştirmenizi mümkün kılar. Proje süresince miniconda  https://docs.conda.io/en/latest/miniconda.html kullanılmasını öneriyoruz.
 ## 🚀 Metin Toplama - Adım 1
 Ön gereksinimleri için text_scraping klasörü altında bulunan requirements.txt klasöründe bulunan kütüphaneler kurulmalıdır.
 pip install -r requirements.txt
@@ -35,8 +35,27 @@ Metin özetleme aracı mevcut olarak 4 site desteklemektedir.
  
 Metin toplayabilmek için list_of_link.txt dosyasına her satıra bir link gelecek biçimde kök linkleri yazınız. Ardından uygulama tüm kök link ve alt linkleri gezerek metin toplama işlemini gerçekleştirecektir.
 
+```python
 python get_text_from_CNN.py
-## 🚀 Extractive Özetleme
+```
+## 🚀 Metin Normalizasyonu - Adım 2
+Toplanan metinler genellikle NLP çalışmaları için istenmeyen pek çok karakter içerir. Normalizer.py modülünde yer alan fonksiyonlar yardımı ile toplanan metinleri kolaylıkla normalize etmek mümkün.
+
+Basit Kullanım
+```
+import Normalizer
+text = "Bu bir - test Metnidir."
+result = Normalizer.normalize(text)
+print("Çıktı: ",result)
+
+Çıktı: bu bir test metnidir
+```
+Geliştirilen Normalizasyon uygulaması Türkçe için özel normalizasyonlar içermektedir.
+number2string -> Metin içerisinde yer alan bütün sayıları Türkçe kelime karşılığına dönüştürür.
+date2string  -> Tarih formatında yazılan ifadeleri Türkçe gün-ay-yıl formatına dönüştürür.
+time2string -> Saat formatonda yazılan ifadeleri Türkçe rakam formatına dönüştürür.
+
+## 🚀 Extractive Özetleme - Adım 3
 
 <h3 text-align="justify">Algoritmamız Türkçe haber metinleri üzerinde özetleme yapan algoritma aşağıdaki şekildedir. Bu algoritma metin içerisindeki en önemli cümleleri kelime sıklık matrisleri oluşturarak seçmektedir.</h3>
 
@@ -94,6 +113,9 @@ def ozetle(self,metin):
         self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
         return self.ozet
 ```
+
+## 🚀 Metin Sınıflandırma- Adım 4
+Etiketsiz toplanan metinlerin sınıflandırılması için, etiketli Türkçe haber verilerinden oluşan veri kümesi kullanılarak PyTorch ile sınıflandırma çalışması gerçekleştirilmiştir.
 ## ✨ Demo Bileşenleri
 
 
