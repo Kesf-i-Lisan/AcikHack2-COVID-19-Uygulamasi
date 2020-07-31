@@ -1,4 +1,4 @@
-<a href="http://kesf-i-lisan.co/"><img src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/dosyalar/kesf_i_lisan_logo.png" style="border-radius:225px !important;" align="right" /></a>
+<a href="http://kesf-i-lisan.co/"><img style="border-radius:225px !important;" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/dosyalar/kesf_i_lisan_logo.png" align="right" /></a>
 # AcikHack2-C19-Ozel
 <p align="center">
 
