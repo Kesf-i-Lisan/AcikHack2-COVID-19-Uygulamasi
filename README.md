@@ -14,33 +14,13 @@
 </p>
 
 <a href="http://kesf-i-lisan.co/Anasayfa/Kutuphane_Islevleri"> <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/> Detaylı Anlatım Yazımız </a>
-<p align="center">
+
  
 Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.5
 NLTK | x.x
 
- </p>
-
-<p align="center"></p>
-<table>
-    <thead>
-        <tr>
-            <th align="left">Column1</th>
-            <th align="center">Column1</th>
-            <th align="right">Column1</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td align="left">Column1</td>
-            <td align="center">Column1</td>
-            <td align="right">Column1</td>
-        </tr>
-    </tbody>
-</table>
-<p></p>
 
 
 ## Ortam Kurulumu - Adım 0
