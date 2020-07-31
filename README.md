@@ -20,8 +20,14 @@ Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.x
 NLTK | 3.5
+Re | 2020.7.14
+Spacy | 2.3.2
+Torch | 1.6.0
+Pandas | 1.1.0
+Numpy | 1.19.1
 Networkx | 2.4
-
+Scikit-learn | 0.23.1
+Seaborn | 0.10.1
 
 
 ## Ortam Kurulumu - Adım 0
