@@ -1,8 +1,7 @@
+<p align="center"> <h1 align="center">  🎯 Açık Hack 2020 | COVID-19 Özel Uygulaması 🎯 </h1> </p>
+
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/Dosyalar/kesf_i_lisan_logo.png" width="30%" height="30%" align="center"/></a> </p>
 <p align="center"> <a href="http://kesf-i-lisan.co/"> Link </a> </p>
-
-
-<p align="center"> <h1 align="center">  🎯 Açık Hack 2020 | COVID-19 Özel Uygulaması 🎯 </h1> </p>
 
 <!--<p align="center">
  <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/dosyalar/kesf_i_lisan_logo.png" style="border-radius:60% !important;  width:350px !important; height:20% !important; " align="center"/></a>
@@ -202,7 +201,6 @@ Eğitim sonucu %89 eğitim %71 test başarısı elde edilmiştir.
 ## ✨ Demo Bileşenleri
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi.png"align="center"/></a> </p>
 
-<p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi_1.png"align="center"/></a> </p>
 
 
 ## 📝 Lisans
