@@ -85,6 +85,6 @@ def ozetle(self,metin):
 ## 🎓👀 Proje Geliştiricileri
 
 ## 📝 Lisans
-
-Copyright © 2020 [Kesf_i_Lisan](https://github.com/Kesf-i-Lisan).<br />
 [[MIT](https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/LICENSE)]
+Copyright © 2020 [Kesf_i_Lisan](https://github.com/Kesf-i-Lisan).<br />
+
