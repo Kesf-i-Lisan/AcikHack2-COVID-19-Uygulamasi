@@ -159,6 +159,7 @@ def ozetle(self,metin):
         dokuman_ozeti = " ".join(str(x) for x in ozetlenecek_cikti_cumleleri)
         return dokuman_ozeti
 ```
+
 #### Harici dokümanlar üzerinde uygulanabilir:
 ```python
     def dokuman_ozetle(self,dosya_ismi):
@@ -167,6 +168,15 @@ def ozetle(self,metin):
         self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
         return self.ozet
 ```
+
+Kullanım
+```python
+import extractive_ozetleme
+
+ozetleme = extractive_ozetleme.extractive_ozetleme()
+dokuman = open("deneme.txt","r").readlines()
+dokuman_ozeti = ozetleme.dokumen_ozetle(dokuman)
+```
 #### Doğrudan metinler üzerinde uygulanabilir:
 ```python
     def metin_ozetle(self,metin):
@@ -174,7 +184,14 @@ def ozetle(self,metin):
         self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
         return self.ozet
 ```
+Kullanım
+```python
+import extractive_ozetleme
 
+ozetleme = extractive_ozetleme.extractive_ozetleme()
+metin = "Bir test metni"
+ozet = ozetleme.metin_ozetle(metin)
+```
 ## 🚀 Metin Sınıflandırma- Adım 5
 Etiketsiz toplanan metinlerin sınıflandırılması için, etiketli Türkçe haber verilerinden oluşan veri kümesi kullanılarak PyTorch ile sınıflandırma çalışması gerçekleştirilmiştir.
 
