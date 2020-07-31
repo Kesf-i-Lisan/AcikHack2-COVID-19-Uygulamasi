@@ -60,3 +60,7 @@ def ozetle(self,metin):
 ```
 
 ## ✨ Demo Bileşenleri
+
+
+## 🎓👀 Proje Geliştiricileri
+
