@@ -38,6 +38,32 @@ Metin toplayabilmek için list_of_link.txt dosyasına her satıra bir link gelec
 ```python
 python get_text_from_CNN.py
 ```
+
+## 🚀 Metin Toplama - Adım 1 - Önemli Opsiyonel
+Veri toplama işlemi konusunda herhangi bir sınır yaşamak istemiyorsanız aşağıdaki yöntemi kullanarak normalizasyon süreçlerine ayrıca dallanmadan temiz veriler toplabilir. Toplanmış olan çıktıları özetleme algoritması içerisinde kullanabilirsiniz.
+```python
+from bs4 import BeautifulSoup,SoupStrainer
+import urllib.request
+import urllib
+from lxml import html
+
+
+normalizasyon_boyut_kriteri = 30
+def linkden_metin_getir_Detayli_normalizasyon(giden_link):
+    html_nesnesi = urllib.request.urlopen(giden_link)
+    soup_nesnesi = BeautifulSoup(html)
+
+    for script in soup_nesnesi(["script", "style"]):
+        script.extract()
+
+    metin = soup_nesnesi.get_text()
+    satir_parcalari = (line.strip() for line in metin.splitlines())
+    icerik_parcalari = (phrase.strip() for satir_parcasi in satir_parcalari for phrase in satir_parcasi.split("  "))
+    for yineleyici_parcacik in icerik_parcalari:
+        if len(yineleyici_parcacik) > normalizasyon_boyut_kriteri:
+            print(yineleyici_parcacik)
+```
+
 ## 🚀 Metin Normalizasyonu - Adım 2
 Toplanan metinler genellikle NLP çalışmaları için istenmeyen pek çok karakter içerir. Normalizer.py modülünde yer alan fonksiyonlar yardımı ile toplanan metinleri kolaylıkla normalize etmek mümkün.
 
