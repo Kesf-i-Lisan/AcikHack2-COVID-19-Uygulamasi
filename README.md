@@ -61,7 +61,29 @@ def ozetle(self,metin):
         dokuman_ozeti = " ".join(str(x) for x in ozetlenecek_cikti_cumleleri)
         return dokuman_ozeti
 ```
-
+```python
+    def dokuman_ozetle(self,dosya_ismi):
+        icerigi_yakalanan_dokuman = self.dokuman_icerigini_yakala(dosya_ismi)
+        ayristirilmis_cumle_listesi = self._cumle_ayristirma_islemi(icerigi_yakalanan_dokuman)
+        self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
+        return self.ozet
+```
+### Harici dokümanlar üzerinde uygulanabilir.
+```python
+    def dokuman_ozetle(self,dosya_ismi):
+        icerigi_yakalanan_dokuman = self.dokuman_icerigini_yakala(dosya_ismi)
+        ayristirilmis_cumle_listesi = self._cumle_ayristirma_islemi(icerigi_yakalanan_dokuman)
+        self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
+        return self.ozet
+```
+### Doğrudan metinler üzerinde uygulanabilir.
+```python
+    def metin_ozetle(self,metin):
+        print("burada")
+        ayristirilmis_cumle_listesi = self._cumle_ayristirma_islemi(metin)
+        self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
+        return self.ozet
+```
 ## ✨ Demo Bileşenleri
 
 
