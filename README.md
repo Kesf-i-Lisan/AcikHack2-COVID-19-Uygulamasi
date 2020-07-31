@@ -22,6 +22,8 @@ NLTK | x.x
 git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
 ## 🚀 Extractive Özetleme
+
+### Algoritmamız Türkçe haber metinleri üzerinde özetleme yapan algoritma aşağıdaki şekildedir. Bu algoritma metin içerisindeki en önemli cümleleri kelime sıklık matrisleri oluşturarak seçmektedir.
 ```python
 def ozetle(self,metin):
         vektor_islemleri = CountVectorizer()
@@ -60,13 +62,6 @@ def ozetle(self,metin):
 
         dokuman_ozeti = " ".join(str(x) for x in ozetlenecek_cikti_cumleleri)
         return dokuman_ozeti
-```
-```python
-    def dokuman_ozetle(self,dosya_ismi):
-        icerigi_yakalanan_dokuman = self.dokuman_icerigini_yakala(dosya_ismi)
-        ayristirilmis_cumle_listesi = self._cumle_ayristirma_islemi(icerigi_yakalanan_dokuman)
-        self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
-        return self.ozet
 ```
 ### Harici dokümanlar üzerinde uygulanabilir.
 ```python
