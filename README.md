@@ -28,6 +28,8 @@ Numpy | 1.19.1
 Networkx | 2.4
 Scikit-learn | 0.23.1
 Seaborn | 0.10.1
+Requests | 2.24.0
+Httplib2 | 0.18.1
 
 
 ## Ortam Kurulumu - Adım 0
