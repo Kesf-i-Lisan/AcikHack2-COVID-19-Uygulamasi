@@ -1,4 +1,6 @@
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/dosyalar/kesf_i_lisan_logo.png" width="30%" height="30%" align="center"/></a> </p>
+
+
 # Açık Hack 2020|COVID-19 Özel Uygulaması 🎯
 
 <!--<p align="center">
