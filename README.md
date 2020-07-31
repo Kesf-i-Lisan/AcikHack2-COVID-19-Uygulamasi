@@ -29,7 +29,7 @@ Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin
 pip install -r requirements.txt
 Metin özetleme aracı mevcut olarak 4 site desteklemektedir.
  -CNN
- -Milleyet
+ -Milliyet
  -NTV
  -BBC
  
