@@ -12,7 +12,8 @@
   </a>
 </p>
 
-<img src="https://img.icons8.com/dusk/50/000000/open-source.png"/>
+<a href="http://kesf-i-lisan.co/Anasayfa/Kutuphane_Islevleri"> Detaylı Anlatım <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/> </a>
+
 Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.5
