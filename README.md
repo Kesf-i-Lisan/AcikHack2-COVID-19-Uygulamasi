@@ -68,7 +68,7 @@ def linkden_metin_getir_Detayli_normalizasyon(giden_link):
 Toplanan metinler genellikle NLP çalışmaları için istenmeyen pek çok karakter içerir. Normalizer.py modülünde yer alan fonksiyonlar yardımı ile toplanan metinleri kolaylıkla normalize etmek mümkün.
 
 Basit Kullanım
-```
+```python
 import Normalizer
 text = "Bu bir - test Metnidir."
 result = Normalizer.normalize(text)
