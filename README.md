@@ -9,7 +9,7 @@
   </a>
 </p>
 
-
+## 🚀 Extractive Özetleme
 ```python
 def ozetle(self,metin):
         vektor_islemleri = CountVectorizer()
