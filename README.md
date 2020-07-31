@@ -38,7 +38,9 @@ Urllib3 | 1.25.10
 Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin özetleme gerçekleştirmenizi mümkün kılar. Proje süresince miniconda  https://docs.conda.io/en/latest/miniconda.html kullanılmasını öneriyoruz.
 
 PyTorch kurulumu için; 
+```sh
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+```
 ```sh
 git clone https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi
 ```
