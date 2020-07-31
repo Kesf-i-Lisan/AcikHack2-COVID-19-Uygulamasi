@@ -30,6 +30,7 @@ Scikit-learn | 0.23.1
 Seaborn | 0.10.1
 Requests | 2.24.0
 Httplib2 | 0.18.1
+Urllib3 | 1.25.10
 
 
 ## Ortam Kurulumu - Adım 0
