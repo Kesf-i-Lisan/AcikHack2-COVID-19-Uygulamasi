@@ -88,4 +88,4 @@ def ozetle(self,metin):
 ## 📝 License
 
 Copyright © 2020 [Kesf_i_Lisan](https://github.com/Kesf-i-Lisan).<br />
-This project is [MIT](https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/LICENSE) licensed.
+[MIT](https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/LICENSE) tarafından lisanslanmıştır.
