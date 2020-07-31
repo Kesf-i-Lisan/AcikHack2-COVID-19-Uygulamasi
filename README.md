@@ -58,3 +58,5 @@ def ozetle(self,metin):
         dokuman_ozeti = " ".join(str(x) for x in ozetlenecek_cikti_cumleleri)
         return dokuman_ozeti
 ```
+
+## ✨ Demo Bileşenleri
