@@ -21,6 +21,21 @@ NLTK | x.x
 ```sh
 git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
+
+## Ortam Kurulumu - Adım 0
+Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin özetleme gerçekleştirmenizi mümkün kılar. Proje süresince [a link] https://docs.conda.io/en/latest/miniconda.html kullanılmasını öneriyoruz.
+## 🚀 Metin Toplama - Adım 1
+Ön gereksinimleri için text_scraping klasörü altında bulunan requirements.txt klasöründe bulunan kütüphaneler kurulmalıdır.
+pip install -r requirements.txt
+Metin özetleme aracı mevcut olarak 4 site desteklemektedir.
+ -CNN
+ -Milleyet
+ -NTV
+ -BBC
+ 
+Metin toplayabilmek için list_of_link.txt dosyasına her satıra bir link gelecek biçimde kök linkleri yazınız. Ardından uygulama tüm kök link ve alt linkleri gezerek metin toplama işlemini gerçekleştirecektir.
+
+python get_text_from_CNN.py
 ## 🚀 Extractive Özetleme
 
 <h3 text-align="justify">Algoritmamız Türkçe haber metinleri üzerinde özetleme yapan algoritma aşağıdaki şekildedir. Bu algoritma metin içerisindeki en önemli cümleleri kelime sıklık matrisleri oluşturarak seçmektedir.</h3>
