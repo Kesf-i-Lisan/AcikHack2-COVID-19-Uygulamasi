@@ -183,7 +183,9 @@ Eğitim süresince 42bin_haber veri kümesi kullanılmıştır. Veri kümesini b
 Yapılan eğitimde dünya, ekonomi, genel, magazine, saglık, spor, Türkiye kategorilerindeki verilerden oluşan 7 farklı sınıf kullanulmıştır.
 Eğitim sonucu %89 eğitim %71 test başarısı elde edilmiştir.
 ## ✨ Demo Bileşenleri
+<p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi.png"align="center"/></a> </p>
 
+<p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi_1.png"align="center"/></a> </p>
 
 ## 🎓👀 Proje Geliştiricileri
 
