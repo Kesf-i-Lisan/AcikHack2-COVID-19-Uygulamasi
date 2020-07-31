@@ -29,7 +29,25 @@ Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin
 git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
 ## 🚀 Kaynak Kökü Toplama - Adım 1
+Veri toplamanın en önemli kısmı çok sayıda kaynağa sahip olmaktır. Yani tutarlı ve özgün içerik üreten web linklerine ulaşmaktır. Bunun için Adım 2 deki yöntemin dışında yani kök dizin vermek dışında, linkleri listeler halinde elde ederek kullanabilirsiniz.  
 
+```python
+def link_getirici_yontem_algoritma_1(arama_metni):
+    sorgu_sayfa_sonucu = requests.get("https://www.google.dz/search?q="+str(arama_metni))
+    soup_nesnesi = BeautifulSoup(sorgu_sayfa_sonucu.content)
+    import re
+    links = soup_nesnesi.findAll("a")
+    for link in links:
+        print(link["href"])
+```
+
+```python
+def link_getirici_google_import(arama_metni):
+    link_tamponu = []
+    for yineleyici in search(arama_metni, tld="co.in", num=4, stop=100, pause=8):
+        link_tamponu.append(j)
+        print(yineleyici)
+```
 ## 🚀 Metin Toplama - Adım 2
 Ön gereksinimleri için text_scraping klasörü altında bulunan requirements.txt klasöründe bulunan kütüphaneler kurulmalıdır.
 pip install -r requirements.txt
