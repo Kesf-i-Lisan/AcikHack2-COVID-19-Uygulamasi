@@ -23,7 +23,7 @@ git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
 ```
 ## 🚀 Extractive Özetleme
 
-### Algoritmamız Türkçe haber metinleri üzerinde özetleme yapan algoritma aşağıdaki şekildedir. Bu algoritma metin içerisindeki en önemli cümleleri kelime sıklık matrisleri oluşturarak seçmektedir.
+<h3 text-align="justify">Algoritmamız Türkçe haber metinleri üzerinde özetleme yapan algoritma aşağıdaki şekildedir. Bu algoritma metin içerisindeki en önemli cümleleri kelime sıklık matrisleri oluşturarak seçmektedir.</h3>
 ```python
 def ozetle(self,metin):
         vektor_islemleri = CountVectorizer()
