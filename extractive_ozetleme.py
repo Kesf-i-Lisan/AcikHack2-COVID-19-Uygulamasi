@@ -80,7 +80,6 @@ class extractive_ozetleme:
         self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
         return self.ozet
     def metin_ozetle(self,metin):
-        print("burada")
         ayristirilmis_cumle_listesi = self._cumle_ayristirma_islemi(metin)
         self.ozet = self.ozetle(ayristirilmis_cumle_listesi)
         return self.ozet
