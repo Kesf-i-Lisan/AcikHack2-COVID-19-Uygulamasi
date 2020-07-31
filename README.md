@@ -37,7 +37,7 @@ Urllib3 | 1.25.10
 ## Ortam Kurulumu - Adım 0
 Keşf-i Lisans projesi sıfırdan metin toplama, metin sınıflandırma ve metin özetleme gerçekleştirmenizi mümkün kılar. Proje süresince miniconda  https://docs.conda.io/en/latest/miniconda.html kullanılmasını öneriyoruz.
 ```sh
-git clone https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel
+git clone https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi
 ```
 ## 🚀 Kaynak Kökü Toplama - Adım 1
 Veri toplamanın en önemli kısmı çok sayıda kaynağa sahip olmaktır. Yani tutarlı ve özgün içerik üreten web linklerine ulaşmaktır. Bunun için Adım 2 deki yöntemin dışında yani kök dizin vermek dışında, linkleri listeler halinde elde ederek kullanabilirsiniz.  
