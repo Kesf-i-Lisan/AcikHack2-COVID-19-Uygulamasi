@@ -167,6 +167,11 @@ def ozetle(self,metin):
 
 ## 🚀 Metin Sınıflandırma- Adım 5
 Etiketsiz toplanan metinlerin sınıflandırılması için, etiketli Türkçe haber verilerinden oluşan veri kümesi kullanılarak PyTorch ile sınıflandırma çalışması gerçekleştirilmiştir.
+
+Eğitim süresince 42bin_haber veri kümesi kullanılmıştır. Veri kümesini bu bağlantıdan indirebilirsiniz. https://drive.google.com/file/d/1wOoIHiQzCyk5p7ZieXkiDCHAtA3GmcUX/view?usp=sharing
+
+Yapılan eğitimde dünya, ekonomi, genel, magazine, saglık, spor, Türkiye kategorilerindeki verilerden oluşan 7 farklı sınıf kullanulmıştır.
+Eğitim sonucu %89 eğitim %71 test başarısı elde edilmiştir.
 ## ✨ Demo Bileşenleri
 
 
