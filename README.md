@@ -15,10 +15,12 @@
 
 <a href="http://kesf-i-lisan.co/Anasayfa/Kutuphane_Islevleri"> <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/> Detaylı Anlatım Yazımız </a>
 <p align="center">
+ 
 Gerekli Kütüphane ve Araçlar | Version
 ------------ | -------------
 Python | 3.5
 NLTK | x.x
+
  </p>
 
 
