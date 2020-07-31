@@ -203,6 +203,8 @@ Eğitim sonucu %89 eğitim %71 test başarısı elde edilmiştir.
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi.png"align="center"/></a> </p>
 
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Dosyalar/web_uygulamasi_ekran_ciktisi_1.png"align="center"/></a> </p>
+
+
 ## 📝 Lisans
 [[MIT](https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/LICENSE)] <br/>
 Copyright © 2020 [Kesf_i_Lisan](https://github.com/Kesf-i-Lisan).<br />
