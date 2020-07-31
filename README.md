@@ -13,7 +13,7 @@
   </a>
 </p>
 
-<a href="http://kesf-i-lisan.co/Anasayfa/Kutuphane_Islevleri"> <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/> Detaylı Anlatım Yazımız </a>
+<a href="http://kesf-i-lisan.co/Anasayfa/Kutuphane_Islevleri"> <img src="https://img.icons8.com/dusk/50/000000/open-source.png"/> Detaylar </a>
 
  
 Gerekli Kütüphane ve Araçlar | Version
