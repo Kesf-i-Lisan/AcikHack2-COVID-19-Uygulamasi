@@ -2,7 +2,9 @@
 
 
 <p align="center"> <a href="http://kesf-i-lisan.co/"><img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-C19-Ozel/blob/master/Dosyalar/kesf_i_lisan_logo.png" width="30%" height="30%" align="center"/></a> </p>
-<p align="center"> <a href="http://kesf-i-lisan.co/"> Link </a> </p>
+<p align="center"> <a href="http://kesf-i-lisan.co/" target="_blank" > Kesf i Lisan Covid-19 Gündem Analizi </a> </p>
+<p align="center"> <a href="https://youtu.be/OZ5Cs1swN3A" target="_blank" > Demo Linki </a> </p>
+
 
 
 <!--<p align="center">
