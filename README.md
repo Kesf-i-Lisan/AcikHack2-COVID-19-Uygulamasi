@@ -12,7 +12,7 @@
 </p>-->
 <p align="center">
 
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
+  <a href="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
   </a>
 </p>
