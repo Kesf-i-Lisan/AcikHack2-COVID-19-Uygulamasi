@@ -13,5 +13,5 @@
 <p align="center"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(5).jpg" width="85%" height="85%" align="center"/> </p>
 <p align="center"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(4).jpg" width="85%" height="85%" align="center"/> </p>
 <p align="center"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(3).jpg" width="85%" height="85%" align="center"/> </p>
-<p align="center"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(2).jpg" width="85%" height="85%" align="center"/> </p>
+<p align="center"> <a href="https://www.youtube.com/watch?v=OZ5Cs1swN3A"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(2).jpg" width="85%" height="85%" align="center"/> </a> </p>
 <p align="center"> <img id="radius_deneme" src="https://github.com/Kesf-i-Lisan/AcikHack2-COVID-19-Uygulamasi/blob/master/Sunum/Resim/Sunum%20(1).jpg" width="85%" height="85%" align="center"/> </p>
